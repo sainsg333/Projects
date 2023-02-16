@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Registration</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="reg.css"> 
+</head>
+<body>
+  <div id="img1"><img width="300px" src="/design/img1.svg" alt=""></div>
+  <div class="box">
+    <form action="reg.php" method="post">
+    <div class="form" >
+        <h2>Registration Form</h2>
+        <div class="whole">
+        <div class="inputbox">
+          <input type="text" required = "required" name="firstname">
+          <span>FirstName</span>
+          <i></i>
+        </div>
+       
+        <div class="inputbox">
+          
+          <input type="text" required = "required" name="lastname">
+          <span>LastName</span>
+          <i></i>
+        </div>
+        <div class="inputbox">
+          
+          <input type="text" required = "required" name="jntunumber">
+          <span>JNTU Number</span>
+          <i></i>
+        </div>
+        <div class="inputbox">
+          <input type="text" required = "required" name="branch">
+          <span>Branch</span>
+          <i></i>
+        </div>
+        <div class="inputbox">
+          
+          <input type="text" required = "required" name="section">
+          <span id="span">Section</span>
+          <i></i>
+        </div>
+        <div class="inputbox">
+          
+          <input type="text" required = "required" name="age">
+          <span>Age</span>
+          <i></i>
+        </div>
+      <input class = "register" type="submit" value="Register" onclick="clicked()">
+    </form>
+    </div>
+  </div>
+  </div>
+  <div style="display:inline-block;" id="img2"><img width="300px" src="/design/img2.svg" alt=""></div>
+</body>
+</html>
